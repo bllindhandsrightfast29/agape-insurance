@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Crystal Shavers-Moses | Agape Insurance</title>
+<meta name="description" content="Crystal Shavers-Moses, licensed insurance agent with Agape Insurance. Term, final expense, whole life, IUL, child whole life insurance and annuities. Call or text 984-234-6306.">
+<meta property="og:title" content="Crystal Shavers-Moses | Agape Insurance">
+<meta property="og:description" content="Protecting What Matters Most. Life insurance and annuities for every stage of life. Call or text 984-234-6306.">
+<meta property="og:image" content="https://bllindhandsrightfast29.github.io/agape-insurance/assets/og.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#3a1452">
+<link rel="icon" href="assets/icon.png">
+<link rel="apple-touch-icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --plum:#2e0f42; --royal:#4f1d73; --violet:#6a2c95;
+  --gold:#c49a3e; --gold-hi:#e8c873; --gold-lo:#9b7425;
+  --paper:#fbf7ef; --paper-2:#f4ecdc; --ink:#2a1d33; --muted:#5d4d68;
+  --display:"Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --script:"Great Vibes", "Snell Roundhand", cursive;
+  --body:"Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--royal)}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px}
+.gold-rule{height:2px;background:linear-gradient(90deg,transparent,var(--gold) 15%,var(--gold-hi) 50%,var(--gold) 85%,transparent)}
+
+/* top bar */
+.top{position:sticky;top:0;z-index:20;background:rgba(46,15,66,.97);color:#fff;padding-top:env(safe-area-inset-top,0px);box-shadow:0 2px 14px rgba(0,0,0,.25)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:62px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-family:var(--display);font-size:1.35rem;font-weight:600;letter-spacing:.06em}
+.brand img{width:40px;height:40px;border-radius:50%;background:#fff;object-fit:cover;border:2px solid var(--gold)}
+.top .call{background:linear-gradient(180deg,var(--gold-hi),var(--gold));color:var(--plum);text-decoration:none;font-weight:700;padding:10px 18px;border-radius:999px;white-space:nowrap;font-size:1.02rem}
+
+/* hero */
+.hero{position:relative;overflow:hidden;background:
+  radial-gradient(1200px 520px at 85% -10%, rgba(232,200,115,.35), transparent 60%),
+  radial-gradient(900px 600px at -10% 110%, rgba(106,44,149,.18), transparent 60%),
+  var(--paper)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:48px;align-items:center;padding-block:56px 64px}
+.arch{position:relative;max-width:420px;margin-inline:auto;width:100%}
+.arch .frame{aspect-ratio:4/5;border-radius:999px 999px 18px 18px;overflow:hidden;border:4px solid var(--gold);box-shadow:0 0 0 8px var(--paper),0 0 0 10px var(--gold-lo),0 24px 50px rgba(46,15,66,.28)}
+.arch .frame img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.arch .badge{position:absolute;left:50%;bottom:-22px;transform:translateX(-50%);background:var(--plum);color:var(--gold-hi);font-family:var(--display);font-weight:600;letter-spacing:.18em;text-transform:uppercase;font-size:.82rem;padding:9px 20px;border-radius:999px;border:1px solid var(--gold);white-space:nowrap}
+.logo{width:min(320px,80%);margin-bottom:6px}
+.script{font-family:var(--script);color:var(--royal);font-size:clamp(2.1rem,4.2vw,3rem);line-height:1.15;margin:0 0 6px}
+.triad{font-family:var(--display);letter-spacing:.32em;text-transform:uppercase;color:var(--royal);font-weight:600;font-size:1rem;margin:0 0 22px}
+.triad span{color:var(--gold);margin:0 .4em}
+h1{font-family:var(--display);font-weight:700;color:var(--plum);font-size:clamp(2.3rem,4.6vw,3.3rem);line-height:1.05;margin:0}
+.role{margin:6px 0 24px;color:var(--muted);font-size:1.05rem}
+.role strong{color:var(--ink)}
+
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:520px}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;min-height:60px;padding:12px 16px;border-radius:14px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:transform .15s ease, box-shadow .15s ease}
+.btn:active{transform:scale(.98)}
+.btn svg{width:24px;height:24px;flex:none}
+.btn-primary{grid-column:1/-1;background:linear-gradient(180deg,var(--violet),var(--royal));color:#fff;box-shadow:0 10px 24px rgba(79,29,115,.35);font-size:1.3rem;min-height:68px}
+.btn-primary small{display:block;font-weight:400;font-size:.85rem;opacity:.85}
+.btn-gold{background:linear-gradient(180deg,var(--gold-hi),var(--gold));color:var(--plum)}
+.btn-ghost{background:#fff;color:var(--royal);border:2px solid var(--royal)}
+.btn:hover{box-shadow:0 12px 26px rgba(46,15,66,.22)}
+.npn{margin-top:18px;color:var(--muted);font-size:.95rem}
+
+/* intro band */
+.band{background:var(--plum);color:#f3e9ff;text-align:center;padding-block:52px;position:relative}
+.band::before,.band::after{content:"";position:absolute;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold-lo),var(--gold-hi),var(--gold-lo))}
+.band::before{top:0}.band::after{bottom:0}
+.band h2{font-family:var(--display);color:#fff;font-size:clamp(1.9rem,4vw,2.7rem);margin:0;letter-spacing:.02em}
+.band .script{color:var(--gold-hi);font-size:clamp(2rem,4.4vw,3rem);margin:4px 0 16px}
+.band p{max-width:720px;margin:0 auto;font-size:1.12rem}
+
+/* coverage */
+section{padding-block:64px}
+.eyebrow{font-family:var(--display);text-transform:uppercase;letter-spacing:.3em;color:var(--gold-lo);font-weight:700;font-size:.9rem;margin:0 0 6px;text-align:center}
+.h2{font-family:var(--display);color:var(--plum);font-size:clamp(2rem,4vw,2.8rem);text-align:center;margin:0 0 36px;line-height:1.1}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.card{background:#fff;border:1px solid #eadfca;border-radius:18px;padding:26px 24px 24px;position:relative;box-shadow:0 6px 20px rgba(46,15,66,.06)}
+.card::before{content:"";position:absolute;inset:0 0 auto 0;height:5px;border-radius:18px 18px 0 0;background:linear-gradient(90deg,var(--royal),var(--violet))}
+.medal{width:62px;height:62px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,var(--violet),var(--plum));box-shadow:0 0 0 3px var(--gold),0 0 0 6px #fff,0 0 0 7px var(--gold-lo);margin-bottom:16px}
+.medal svg{width:30px;height:30px;color:#fff}
+.card h3{font-family:var(--display);color:var(--plum);font-size:1.6rem;margin:0;line-height:1.1}
+.card .sub{font-style:italic;color:var(--gold-lo);margin:4px 0 12px;font-weight:600}
+.card ul{list-style:none;margin:0;padding:0}
+.card li{padding-left:28px;position:relative;margin:6px 0}
+.card li::before{content:"";position:absolute;left:2px;top:.5em;width:14px;height:8px;border-left:3px solid var(--gold);border-bottom:3px solid var(--gold);transform:rotate(-45deg)}
+
+/* steps */
+.steps{background:var(--paper-2)}
+.step-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;counter-reset:s}
+.step{text-align:center;padding:10px 8px}
+.step .num{counter-increment:s;width:58px;height:58px;margin:0 auto 12px;border-radius:50%;display:grid;place-items:center;background:var(--plum);color:var(--gold-hi);font-family:var(--display);font-size:1.7rem;font-weight:700;border:2px solid var(--gold)}
+.step .num::before{content:counter(s)}
+.step h3{font-family:var(--display);color:var(--plum);font-size:1.5rem;margin:0 0 4px}
+.step p{margin:0;color:var(--muted)}
+
+/* trust */
+.trust{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:40px}
+.pill{background:#fff;border:1px solid #eadfca;border-radius:14px;padding:18px 14px;text-align:center;font-weight:600;color:var(--plum)}
+.pill svg{width:30px;height:30px;color:var(--gold-lo);margin:0 auto 6px;display:block}
+.license{background:#fff;border:2px solid var(--gold);border-radius:20px;padding:28px;display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center;max-width:860px;margin:0 auto}
+.seal{width:110px;height:110px;border-radius:50%;display:grid;place-items:center;text-align:center;background:radial-gradient(circle at 35% 30%,var(--gold-hi),var(--gold) 60%,var(--gold-lo));color:var(--plum);font-family:var(--display);font-weight:700;line-height:1.05;font-size:1rem;box-shadow:inset 0 0 0 4px rgba(255,255,255,.5),0 6px 16px rgba(155,116,37,.35)}
+.seal b{display:block;font-size:1.5rem}
+.license h3{font-family:var(--display);color:var(--plum);font-size:1.7rem;margin:0 0 4px}
+.license p{margin:4px 0}
+.states{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 12px;padding:0;list-style:none}
+.states li{background:var(--paper-2);border:1px solid #e3d4b5;border-radius:8px;padding:2px 10px;font-weight:700;color:var(--royal);font-size:.95rem}
+
+/* contact */
+.contact{background:linear-gradient(160deg,var(--plum),var(--royal));color:#fff;text-align:center}
+.contact .h2{color:#fff}
+.contact .script{color:var(--gold-hi)}
+.contact .actions{margin:0 auto}
+.contact .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.7)}
+.big-phone{font-family:var(--display);font-size:clamp(2.4rem,7vw,3.6rem);font-weight:700;color:var(--gold-hi);text-decoration:none;display:inline-block;margin:0 0 6px;letter-spacing:.02em}
+.email{color:#fff;font-size:1.15rem;word-break:break-all}
+footer{background:#1f0a2c;color:#cbb9d8;text-align:center;padding-block:28px calc(28px + env(safe-area-inset-bottom,0px));font-size:.9rem}
+footer .t{font-family:var(--display);letter-spacing:.3em;color:var(--gold-hi);text-transform:uppercase;font-size:1rem;margin:0 0 4px}
+
+/* motion */
+@media (prefers-reduced-motion:no-preference){
+  .rise{opacity:0;transform:translateY(16px);animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
+  .d1{animation-delay:.08s}.d2{animation-delay:.18s}.d3{animation-delay:.3s}.d4{animation-delay:.42s}
+  @keyframes rise{to{opacity:1;transform:none}}
+}
+
+/* responsive */
+@media (max-width:900px){
+  .hero .wrap{grid-template-columns:1fr;gap:44px;padding-block:32px 48px;text-align:center}
+  .arch{max-width:300px}
+  .logo{margin-inline:auto}
+  .actions{margin-inline:auto}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .trust{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:620px){
+  body{font-size:18px}
+  .grid,.step-row{grid-template-columns:1fr}
+  .license{grid-template-columns:1fr;text-align:center;justify-items:center}
+  .states{justify-content:center}
+  .brand span{display:none}
+  section{padding-block:48px}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></symbol>
+  <symbol id="i-text" viewBox="0 0 24 24"><path fill="currentColor" d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2zm3 6v2h2V9H7zm4 0v2h2V9h-2zm4 0v2h2V9h-2z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="currentColor" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4.4 7H4v.6l8 5.6 8-5.6V7h-.4L12 12.2z"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><path fill="currentColor" d="M3 4h18a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm6 4a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm-4 9h8c0-2-1.8-3.2-4-3.2S5 15 5 17zm10-8v2h4V9h-4zm0 4v2h4v-2h-4z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2 4 5v6c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5l-8-3zm-3 8a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm6 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm-3-2a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm-4.5 8c0-1.3 1-2 2.2-2 .7 0 1.3.3 1.6.6.3-.3.9-.6 1.6-.6 1.2 0 2.3.7 2.3 2v1h-7.7v-1z"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path fill="currentColor" d="M12 21s-7.5-4.6-9.5-9.3C1.1 8.3 3.3 4.5 7 4.5c2 0 3.4 1 5 2.8 1.6-1.8 3-2.8 5-2.8 3.7 0 5.9 3.8 4.5 7.2C19.5 16.4 12 21 12 21zM5 11.5h3.2l1.3-2.6 2.2 5.2 1.6-2.6H19v-1.5h-6.5l-.8 1.3-2.4-5.6-2 4.3H5v1.5z"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path fill="currentColor" d="M20 3C10 3 5 8 5 15c0 1.3.2 2.6.6 3.7L3 21.3 4.4 22.7l2.6-2.6c1.2.6 2.6.9 4 .9 7 0 9-7 9-18zm-9 14.5-1.4-1.4C13 12.7 15 9.7 16 7c-1.3 3.6-3 7.1-5 10.5z"/></symbol>
+  <symbol id="i-growth" viewBox="0 0 24 24"><path fill="currentColor" d="M4 20h17v2H2V3h2v17zm2-2v-5h3v5H6zm5 0V9h3v9h-3zm5 0v-7h3v7h-3zM15 3h6v6l-2.3-2.3-5.2 5.2-3-3L7 12.4 5.6 11l4.9-4.9 3 3 3.8-3.8L15 3z"/></symbol>
+  <symbol id="i-kids" viewBox="0 0 24 24"><path fill="currentColor" d="M7 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zm10 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM5 9h4a2 2 0 0 1 2 2v5H9.5v6h-5v-6H3v-5a2 2 0 0 1 2-2zm10 0h4a2 2 0 0 1 2 1.6l1.5 6.4H19v5h-4v-5h-2.5l1.5-6.4A2 2 0 0 1 15 9z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><path fill="currentColor" d="M3 18h18v2H3v-2zm9-12a6 6 0 0 1 6 6H6a6 6 0 0 1 6-6zM11 1h2v3h-2V1zM3.5 4.9l1.4-1.4L7 5.6 5.6 7 3.5 4.9zm15.6-1.4 1.4 1.4L18.4 7 17 5.6l2.1-2.1zM1 13h4v2H1v-2zm18 0h4v2h-4v-2z"/></symbol>
+  <symbol id="i-hand" viewBox="0 0 24 24"><path fill="currentColor" d="M1 11l5-5 3 2h4l3-2 5 5-3 3-1-1-4 4c-.6.6-1.4.6-2 0l-.5-.5-.5.5c-.6.6-1.4.6-2 0l-.5-.5c-.6.5-1.4.5-2 0L4 14 1 11zm9.5-1L8 12.5l.7.7L11.5 10h-1z"/></symbol>
+  <symbol id="i-people" viewBox="0 0 24 24"><path fill="currentColor" d="M12 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6zM5 6a2.3 2.3 0 1 1 0 4.6A2.3 2.3 0 0 1 5 6zm14 0a2.3 2.3 0 1 1 0 4.6A2.3 2.3 0 0 1 19 6zM12 12c3 0 5.5 1.6 5.5 4v3h-11v-3c0-2.4 2.5-4 5.5-4zM5 12.3c.6 0 1.1.1 1.6.2A5 5 0 0 0 4.9 16v3H1v-2.7c0-2.2 1.8-4 4-4zm14 0c2.2 0 4 1.8 4 4V19h-3.9v-3a5 5 0 0 0-1.7-3.5c.5-.1 1-.2 1.6-.2z"/></symbol>
+  <symbol id="i-tree" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2c3.3 0 6 2.6 6 5.8 1.8.9 3 2.7 3 4.8 0 3-2.4 5.4-5.4 5.4H13v4h-2v-4H8.4C5.4 18 3 15.6 3 12.6c0-2.1 1.2-3.9 3-4.8C6 4.6 8.7 2 12 2z"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="assets/icon.png" alt=""><span>AGAPE INSURANCE</span></a>
+    <a class="call" href="tel:+19842346306">Call 984-234-6306</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div class="arch rise d1">
+        <div class="frame"><img src="assets/crystal.jpg" alt="Crystal Shavers-Moses, insurance agent"></div>
+        <div class="badge">Licensed Agent</div>
+      </div>
+      <div>
+        <img class="logo rise d1" src="assets/agape-logo.png" alt="Agape Insurance">
+        <p class="script rise d2">Protecting What Matters Most</p>
+        <p class="triad rise d2">Family<span>&bull;</span>Future<span>&bull;</span>Legacy</p>
+        <h1 class="rise d3">Crystal Shavers-Moses</h1>
+        <p class="role rise d3"><strong>Insurance Agent</strong> &middot; Life Insurance &amp; Annuities</p>
+        <div class="actions rise d4">
+          <a class="btn btn-primary" href="tel:+19842346306"><svg><use href="#i-phone"/></svg><span>Call Crystal<small>984-234-6306</small></span></a>
+          <a class="btn btn-gold" href="sms:+19842346306"><svg><use href="#i-text"/></svg>Text Me</a>
+          <a class="btn btn-ghost" href="mailto:agapebiz20@gmail.com"><svg><use href="#i-mail"/></svg>Email</a>
+          <a class="btn btn-ghost" style="grid-column:1/-1" href="crystal-shavers-moses.vcf" download><svg><use href="#i-card"/></svg>Save My Contact to Your Phone</a>
+        </div>
+        <p class="npn rise d4">National Producer Number (NPN) 18782713</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="wrap">
+      <h2>Life Insurance &amp; Annuities</h2>
+      <p class="script">Solutions for Every Stage of Life</p>
+      <p>At Agape Insurance, we believe in love, protection and financial peace. We provide customized insurance and retirement solutions to help you secure your family, build wealth, and leave a lasting legacy.</p>
+    </div>
+  </div>
+
+  <section id="coverage">
+    <div class="wrap">
+      <p class="eyebrow">What I Offer</p>
+      <h2 class="h2">Coverage for Your Family</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="medal"><svg><use href="#i-shield"/></svg></div>
+          <h3>Term Life Insurance</h3>
+          <p class="sub">Affordable protection for a limited time</p>
+          <ul><li>High coverage for less cost</li><li>Protects your loved ones</li><li>Ideal for income replacement, loans and more</li></ul>
+        </article>
+        <article class="card">
+          <div class="medal"><svg><use href="#i-heart"/></svg></div>
+          <h3>Final Expense Insurance</h3>
+          <p class="sub">Ease the burden for your loved ones</p>
+          <ul><li>Covers funeral and burial costs</li><li>No medical exam (usually)</li><li>Quick and easy approval</li></ul>
+        </article>
+        <article class="card">
+          <div class="medal"><svg><use href="#i-leaf"/></svg></div>
+          <h3>Whole Life Insurance</h3>
+          <p class="sub">Lifetime coverage with cash value</p>
+          <ul><li>Guaranteed protection</li><li>Builds cash value over time</li><li>Helps with wealth transfer and legacy planning</li></ul>
+        </article>
+        <article class="card">
+          <div class="medal"><svg><use href="#i-growth"/></svg></div>
+          <h3>IUL Insurance</h3>
+          <p class="sub">Protection + growth + flexibility</p>
+          <ul><li>Market-linked cash value growth</li><li>Tax advantages</li><li>Flexible withdrawals and income options</li></ul>
+        </article>
+        <article class="card">
+          <div class="medal"><svg><use href="#i-kids"/></svg></div>
+          <h3>Child Whole Life Policies</h3>
+          <p class="sub">A brighter future for your children</p>
+          <ul><li>Lifetime protection</li><li>Builds cash value</li><li>Helps with education, college and more</li></ul>
+        </article>
+        <article class="card">
+          <div class="medal"><svg><use href="#i-sun"/></svg></div>
+          <h3>Annuities</h3>
+          <p class="sub">Planning for retirement</p>
+          <ul><li>Retirement income planning</li><li>Options to fit your goals</li><li>Ask me what makes sense for you</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps">
+    <div class="wrap">
+      <p class="eyebrow">Getting Started</p>
+      <h2 class="h2">Three Simple Steps</h2>
+      <div class="step-row">
+        <div class="step"><div class="num"></div><h3>Call or Text</h3><p>Reach me at 984-234-6306. If I miss you, I'll call you back.</p></div>
+        <div class="step"><div class="num"></div><h3>We Talk</h3><p>Tell me about your family and what you want to protect.</p></div>
+        <div class="step"><div class="num"></div><h3>Pick Your Plan</h3><p>I'll walk you through options that fit your needs and budget.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <p class="eyebrow">Why Agape</p>
+      <h2 class="h2">Because Your Family Matters</h2>
+      <div class="trust">
+        <div class="pill"><svg><use href="#i-hand"/></svg>Personalized Service</div>
+        <div class="pill"><svg><use href="#i-shield"/></svg>Trusted Protection</div>
+        <div class="pill"><svg><use href="#i-people"/></svg>Financial Stability</div>
+        <div class="pill"><svg><use href="#i-tree"/></svg>Generations of Wealth</div>
+      </div>
+      <div class="license">
+        <div class="seal"><div>NPN<b>18782713</b></div></div>
+        <div>
+          <h3>Licensed Insurance Agent</h3>
+          <p>Licensed in these states:</p>
+          <ul class="states"><li>NC</li><li>VA</li><li>PA</li><li>MD</li><li>DE</li><li>FL</li><li>MI</li><li>TX</li><li>OH</li></ul>
+          <p>Anyone can check an agent's license for free. <a href="https://sbs.naic.org/solar-external-lookup/?jurisdiction=NC&amp;searchType=Licensee" target="_blank" rel="noopener">Look up my license on the NAIC public lookup</a> and search by my name or NPN.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <p class="script">Let's Build Your Financial Legacy!</p>
+      <h2 class="h2">Reach Me Directly</h2>
+      <a class="big-phone" href="tel:+19842346306">984-234-6306</a>
+      <p><a class="email" href="mailto:agapebiz20@gmail.com">agapebiz20@gmail.com</a></p>
+      <div class="actions" style="margin-top:22px">
+        <a class="btn btn-gold" href="tel:+19842346306"><svg><use href="#i-phone"/></svg>Call</a>
+        <a class="btn btn-ghost" href="sms:+19842346306"><svg><use href="#i-text"/></svg>Text</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p class="t">Agape Insurance</p>
+  <p>Protect &bull; Plan &bull; Prosper</p>
+  <p>Crystal Shavers-Moses, Licensed Insurance Agent &middot; NPN 18782713</p>
+</footer>
+</body>
+</html>
