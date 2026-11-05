@@ -56,6 +56,8 @@ a{color:var(--royal)}
 h1{font-family:var(--display);font-weight:700;color:var(--plum);font-size:clamp(2.3rem,4.6vw,3.3rem);line-height:1.05;margin:0}
 .role{margin:6px 0 24px;color:var(--muted);font-size:1.05rem}
 .role strong{color:var(--ink)}
+.role .agency{display:none}
+@media (max-width:620px){.role .agency{display:inline}}
 
 .actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:520px}
 .btn{display:flex;align-items:center;justify-content:center;gap:10px;min-height:60px;padding:12px 16px;border-radius:14px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:transform .15s ease, box-shadow .15s ease}
@@ -146,6 +148,13 @@ footer .t{font-family:var(--display);letter-spacing:.3em;color:var(--gold-hi);te
   .states{justify-content:center}
   .brand span{display:none}
   section{padding-block:48px}
+  .hero .wrap{gap:30px;padding-block:20px 40px}
+  .arch{max-width:180px}
+  .arch .badge{font-size:.68rem;padding:6px 14px;bottom:-16px}
+  .logo{display:none}
+  .role{margin-bottom:16px}
+  .script{font-size:2rem}
+  .triad{font-size:.85rem;margin-bottom:14px}
 }
 </style>
 </head>
@@ -186,7 +195,7 @@ footer .t{font-family:var(--display);letter-spacing:.3em;color:var(--gold-hi);te
         <p class="script rise d2">Protecting What Matters Most</p>
         <p class="triad rise d2">Family<span>&bull;</span>Future<span>&bull;</span>Legacy</p>
         <h1 class="rise d3">Crystal Shavers-Moses</h1>
-        <p class="role rise d3"><strong>Insurance Agent</strong> &middot; Life Insurance &amp; Annuities</p>
+        <p class="role rise d3"><strong>Insurance Agent</strong> &middot; <span class="agency">Agape Insurance &middot; </span>Life Insurance &amp; Annuities</p>
         <div class="actions rise d4">
           <a class="btn btn-primary" href="tel:+19842346306"><svg><use href="#i-phone"/></svg><span>Call Crystal<small>984-234-6306</small></span></a>
           <a class="btn btn-gold" href="sms:+19842346306"><svg><use href="#i-text"/></svg>Text Me</a>
